@@ -1,23 +1,28 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BYTE x FUTURIST Conference</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<title>TMU BYTE x FUTURIST Conference</title>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Funnel Display',sans-serif}
 body{min-height:100vh;display:flex;justify-content:center;align-items:center;background:radial-gradient(circle at top left,#6d4aff 0%,transparent 40%),radial-gradient(circle at bottom right,#3c1fa5 0%,transparent 35%),linear-gradient(135deg,#1b103d,#09090f);color:#fff}
 .card{width:min(700px,90%);padding:60px;border-radius:28px;background:rgba(255,255,255,.05);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.08);text-align:center}
 .tag{display:inline-block;color:#bca8ff;border-bottom:1px solid #8b6fff;padding-bottom:6px;margin-bottom:18px;text-transform:uppercase;letter-spacing:2px}
-h1{font-size:3rem;margin-bottom:20px}
+h1{font-size:clamp(1.6rem,5vw,3rem);margin-bottom:20px;text-align:center;width:100%;word-break:break-word;line-height:1.2}
 p{color:#ddd;line-height:1.8;margin-bottom:16px}
 .code-box{margin:36px auto;padding:22px;border-radius:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15)}
 .label{color:#bca8ff;text-transform:uppercase;letter-spacing:2px;font-size:.85rem}
 .code{font-size:2rem;font-weight:800;letter-spacing:4px;margin:14px 0}
-button{padding:14px 28px;border:none;border-radius:12px;background:#6d4aff;color:#fff;font-weight:600;cursor:pointer}
+button{padding:14px 28px;border:none;border-radius:12px;background:#6d4aff;color:#fff;font-weight:600;cursor:pointer;font-family:'Funnel Display',sans-serif}
 button:hover{background:#7d5eff}
 .footer{margin-top:30px;color:#aaa}
+@media(max-width:480px){
+  .card{padding:36px 24px}
+  .code{font-size:1.5rem;letter-spacing:2px}
+}
 </style>
 </head>
 <body>
@@ -35,3 +40,4 @@ button:hover{background:#7d5eff}
 </div>
 </body>
 </html>
+```
